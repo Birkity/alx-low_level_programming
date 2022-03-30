@@ -5,7 +5,7 @@
 * Return: Always 0.
 */
 void _puts_recursion(char *s){
-	printf("%c\n", s );
+	Puts("%c\n", &s );
 	s++;
 	_puts_recursion(s);
 }
