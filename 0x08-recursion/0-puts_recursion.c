@@ -11,12 +11,8 @@ void _puts_recursion(char *s){
 		_puts_recursion(s+1);
 		_putchar(*s);
 	}
-
-}
-int main(void)
-{
-    _puts_recursion("Puts with recursion");
-    _putchar('\n');
-    return (0);
+	else{
+		_putchar('\n');
+	}
 
 }
