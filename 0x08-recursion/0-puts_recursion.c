@@ -9,14 +9,14 @@ void _puts_recursion(char *s){
 	if (*s != "\n")
 	{
 		_puts_recursion(s+1);
-		printf("%c\n", *s );
+		_putchar(*s);
 	}
 
 }
 int main(void)
 {
     _puts_recursion("Puts with recursion");
-    printf("\n");
+    _putchar('\n');
     return (0);
 
 }
