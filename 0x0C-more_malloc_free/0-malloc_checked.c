@@ -9,11 +9,13 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *cr;
+	void *cr;
 
 	cr = malloc(sizeof(int) * b);
 
 	if (cr == NULL)
-		return (NULL);
+		exit(98);
+	
+	return(cr);
 	
 }
