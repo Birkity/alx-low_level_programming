@@ -1,7 +1,12 @@
-#ifndef OBJECT_LIKE_MACRO
-#define OBJECT_LIKE_MACRO
-
-#define __FILE__
+#include <stdio.h>
+/*
 
 
-#endif
+
+*/
+
+int main()
+{
+	printf("%d\n"__FILE__);
+	return 0;
+}
