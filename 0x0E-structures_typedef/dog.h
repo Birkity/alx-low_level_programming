@@ -1,5 +1,5 @@
-#ifndef OBJECT_LIKE_MACRO
-#define OBJECT_LIKE_MACRO
+#ifndef DOG_H
+#define DOG_H
 
 struct dog
 {
