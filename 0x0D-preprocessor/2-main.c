@@ -1,5 +1,5 @@
-#ifndef 2_MAIN_H
-#define 2_MAIN_H
+#ifndef OBJECT_LIKE_MACRO
+#define OBJECT_LIKE_MACRO
 
 #define __FILE__
 
